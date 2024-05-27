@@ -1,0 +1,11 @@
+---
+
+- hosts: vps
+  roles:
+    # choose preferred web server
+    - apache2
+    # - nginx
+    # - openlitespeed
+
+    # download release
+    - mittens
